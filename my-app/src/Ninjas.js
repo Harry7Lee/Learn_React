@@ -1,4 +1,5 @@
 import React from "react";
+import "../src/main.css";
 
 const Ninjas = ({ ninjas, deleteNinja }) => {
   const ninjaList = ninjas.map(ninja => {
